@@ -12,6 +12,32 @@ produto do supermercado;
 produto no sistema;
 - Eu, como administrador, gostaria de criar lotes associados aos produtos,
 informando a quantidade de itens disponíveis e a data de validade.
+- Eu, como USUÁRIO, gostaria de adicionar um novo produto no carrinho de compras,
+informando o id do produto relacionado e a quantidade desejada do mesmo;
+- Eu, como USUÁRIO, gostaria de remover um novo produto no carrinhos de compras, 
+informando o id do produto relacionado e a quantidade desejada do mesmo;
+- Eu, como USUÁRIO, gostaria de desistir da compra não precisando informar nada
+- Eu, como USUÁRIO, gostaria de finalizar compra sem precisar informar nada para que isso seja feito.
+- Eu, como USUÁRIO, gostaria de receber um registro dos produtos da minha compra e o, 
+respectivo valor da compra, sem precisar informar nada.
+- Eu, como USUÁRIO, gostaria de receber a lista dos produtos e o valor da compra antes mesmo de finalizar da compra sem precisar informar nada.
+- Eu, como cliente do sistema Mercado Fácil, quero fazer pagamentos a partir de carrinhos de compras, para  que seja possível finalizar compras
+- Eu, como cliente do sistema Mercado Fácil, quero selecionar a forma de pagamento (boleto, paypal e cartão de crédito) antes de finalizar compras, para que seja possível pagar as compras da forma mais conveniente
+- Eu, como cliente do sistema Mercado Fácil, quero listar as últimas compras realizadas, para ter acesso a informações básicas das compras (código, data, itens e valor)
+- Eu, como cliente do sistema Mercado Fácil, quero ter acesso aos detalhes de uma compra realizada, para acessar informações específicas sobre a compra em questão (código, data, itens, valor, forma de pagamento)
+- Eu, como administrador do sistema Mercado Fácil, quero poder estabelecer acréscimos percentuais no valor da compra para cada forma de pagamento, para que o valor do pagamento esteja compatível com os custos operacionais de cada operação.
+```
+1 - O pagamento padrão é via boleto e não há acréscimo;
+2 - Para pagamento em paypal há um acréscimo de 2% no valor da compra;
+3 - Para pagamento em cartão de crédito há um acréscimo de 5% no valor da compra;
+```
+- Eu, como administrador do sistema Mercado Fácil, quero poder realizar operações CRUD para usuários padrão do sistema (clientes), para ter controle de cadastro e informações desses usuários.
+- Eu, como administrador do sistema Mercado Fácil, quero poder estabelecer perfis de usuário padrão (normal, especial e premium), para possibilitar que descontos diferenciados sejam aplicados nas compras dos usuários.
+```
+1 - O usuário normal não tem desconto;
+2 - O usuário especial tem um desconto de 10% para compras com mais de 10 produtos;
+3- O usuário premium tem um desconto de 10% para compras com mais de 5 produtos.
+````
 
 ## Estrutura básica
 
