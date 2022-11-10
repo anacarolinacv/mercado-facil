@@ -23,7 +23,7 @@ import com.ufcg.psoft.mercadofacil.util.ErroProduto;
 import com.ufcg.psoft.mercadofacil.util.ErroLote;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/carrinho")
 @CrossOrigin
 public class CarrinhoComprasApiController {
 
